@@ -66,8 +66,8 @@ public class stepdef {
     {	
     	  sharedata.usernm=username;
 		 System.out.println("Usename from stepdef : "+username);
-		 SeleniumDriver.getDriver().findElement(By.id("loginForm:username")).sendKeys(username);
-		 SeleniumDriver.getDriver().findElement(By.id("loginForm:password")).sendKeys(password);
+		// SeleniumDriver.getDriver().findElement(By.id("loginForm:username")).sendKeys(username);
+		// SeleniumDriver.getDriver().findElement(By.id("loginForm:password")).sendKeys(password);
     }
     
 
@@ -75,7 +75,7 @@ public class stepdef {
     public void	click_on_login() throws Throwable 							
     {		
 		
-    SeleniumDriver.getDriver().findElement(By.xpath("(//span[text()='Login'])[2]")).click();
+   // SeleniumDriver.getDriver().findElement(By.xpath("(//span[text()='Login'])[2]")).click();
     }
     
     
